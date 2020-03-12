@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "trellock-app": {
+      "hosting": {
+        "trellock": [
+          "trellock-app"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "trellock",
+      "public": "dist/trellock",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
