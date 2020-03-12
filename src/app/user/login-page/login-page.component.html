@@ -5,6 +5,10 @@
     <button mat-raised-button appGoogleSignin>
       <img src="/assets/google-logo.svg" /> Login with Google
     </button>
+    <br />
+    <h3>OR</h3>
+
+    <app-email-login></app-email-login>
   </div>
 
   <div *ngIf="afAuth.authState | async as user" class="logout">
