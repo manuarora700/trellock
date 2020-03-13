@@ -4,3 +4,8 @@ h1 {
 header {
   text-align: center;
 }
+@media (max-width: 768px) {
+  .video-player {
+    width: 50%;
+  }
+}

@@ -1,4 +1,6 @@
-# Trellock
+# Trellock - [DEMO](https://trellock-app.firebaseapp.com/)
+
+Trellock is a simpler version of trello which manages boards
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
