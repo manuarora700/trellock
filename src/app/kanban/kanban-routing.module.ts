@@ -1,11 +1,11 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
-import { LoginPageComponent } from "../user/login-page/login-page.component";
+import { BoardListComponent } from "./board-list/board-list.component";
 
-const routes: Routes = [{ path: "", component: LoginPageComponent }];
+const routes: Routes = [{ path: "", component: BoardListComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class UserRoutingModule {}
+export class KanbanRoutingModule {}
