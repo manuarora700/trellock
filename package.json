@@ -36,7 +36,7 @@
     "@nguniversal/express-engine": "^9.0.0",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.9.1",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "firebase": ">= 5.5.7 <8",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~6.5.4",
